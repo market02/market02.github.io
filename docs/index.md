@@ -5,15 +5,15 @@ tk:
   teekHome: false
 
 hero:
-  name: Teek
-  text: VitePress 主题
-  tagline: ✨一个轻量、简洁高效、灵活配置，易于扩展的 VitePress 主题
+  name: 80fafa
+  text: 帮您发发
+  tagline: ✨一个助力知识分享、内容变现的付费取码平台
   actions:
     - theme: brand
-      text: 开始
+      text: 快速开始
       link: /guide/quickstart
     - theme: alt
-      text: 配置
+      text: 结算
       link: /reference/config
   image:
     src: /teek-logo-large.png
@@ -21,34 +21,34 @@ hero:
 
 features:
   - icon: 📖
-    title: 结构化 && 体系化
-    details: 自动生成侧边栏、目录页、索引页、面包屑等，轻松构建一个结构化知识库。
+    title: 简单 && 灵活
+    details: 自动为您的内容加密压缩及发布，轻松分享您的知识内容。
   - icon: 🎉
-    title: 碎片化 & 个性化
-    details: 提供快速构建知识的碎片化形态，并提供大量个性化的主题配置。
+    title: 结算 & 快速变现
+    details: 及时结算，支持支付宝、微信结算。
   - icon: 🎇
-    title: 文档风 & 博客风
-    details: 支持通过配置搭配出各种风格，支持个人博客、文档站、知识库等场景。
+    title: 自由 & 多渠道分享
+    details: 各种云盘、论坛、社交媒体等渠道，自由分享您的知识内容。
   - icon: 📝
-    title: 专注内容
-    details: 只需 Markdown 即可轻松创建美观的文档站点，配合多维索引快速定位每个知识点。
+    title: 专注于发码
+    details: 我们专注于发码、取码、支付、结算，帮您发发。
 ---
 
 ## 风格切换
 
-Teek 可以通过配置搭配出各种风格，而当前文档站默认仅演示较简约的文档风格。
+80fafa 可以帮您发码、取码、支付、结算。快速达成你的自由交易。
 
-在右上角 <TkIcon :icon="readingIcon" :size="20" /> 图标的 <mark>配置切换</mark> 区域可以切换其他风格。因为配置较多，很多的功能并没有完全演示，需要安装 Teek，然后自行探索出自己喜欢的风格。
+80fafa 可以支持API调用，通过快速发布商品，生成密码，你可以快速集成到网站应用当中。
 
 ## 💡 反馈交流
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/Kele-Bingtang/vitepress-theme-teek/issues)。 你也可以在 Issue 查看别人提的问题和解决方案。
+在使用过程中有任何问题和想法，请给我提意见。
 
-或者加入我们的交流群（添加我的微信并备注 <mark>进群</mark>）：
+请加入或者加入我们的交流群（添加我的微信并备注 <mark>进群</mark>）：
 
 <img src="https://gcore.jsdelivr.net/gh/Kele-Bingtang/static/index/20250412000919.png" alt="添加我微信备注「进群」" style="width: 180px;" />
 
-如果图片链接失效，可以在微信右上角 -> 添加朋友，然后搜索 `teekers` 来添加我的微信。
+如果图片链接失效，可以在微信右上角 -> 添加朋友，然后搜索 `80fafa` 来添加我的微信。
 
 <script setup lang="ts">
 import { onMounted } from "vue";

@@ -9,9 +9,9 @@ import { version } from "../../packages/teek/version";
 // import { version } from "vitepress-theme-teek/es/version";
 
 const description = [
-  "欢迎来到 vitepress-theme-teek 使用文档",
-  "Teek 是一个基于 VitePress 构建的主题，是在默认主题的基础上进行拓展，支持 VitePress 的所有功能、配置",
-  "Teek 拥有三种典型的知识管理形态：结构化、碎片化、体系化，可以轻松构建一个结构化知识库，适用个人博客、文档站、知识库等场景",
+  "欢迎来到 80fafa 使用文档",
+  "80fafa 是一个助于知识分享、内容变现的取码平台",
+  "80fafa 拥有三种典型的业务: 为内容分享者加密并发码，为终端用户支付并取码，提供结算变现",
 ].toString();
 
 const teekConfig = defineTeekConfig({
@@ -20,8 +20,8 @@ const teekConfig = defineTeekConfig({
   blogger: {
     avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png",
     shape: "circle-rotate",
-    name: "天客",
-    slogan: "朝圣的使徒，正在走向编程的至高殿堂！",
+    name: "80fafa",
+    slogan: "让知识变现更容易！",
     circleBgImg: "/blog/bg4.webp",
     color: "#ffffff",
   },
@@ -31,7 +31,7 @@ const teekConfig = defineTeekConfig({
     },
     copyright: {
       createYear: 2025,
-      suffix: "Teek",
+      suffix: "80fafa",
     },
   },
   codeBlock: {
@@ -48,7 +48,7 @@ const teekConfig = defineTeekConfig({
   },
   markdown: {
     demo: {
-      githubUrl: "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/docs",
+      githubUrl: "https://market02.github.io/blob/master/docs",
     },
   },
   siteAnalytics: [
@@ -80,7 +80,7 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
-    ["meta", { property: "og:title", content: "Teek | VitePress Theme" }],
+    ["meta", { property: "og:title", content: "80fafa | 帮您发发" }],
     ["meta", { property: "og:site_name", content: "Teek" }],
     ["meta", { property: "og:image", content: "" }],
     ["meta", { property: "og:url", content: "" }],
@@ -122,7 +122,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://vp.teek.top",
+    hostname: "http://doc.80fafa.com",
     transformItems: items => {
       const permalinkItemBak: typeof items = [];
       // 使用永久链接生成 sitemap
@@ -156,24 +156,14 @@ export default defineConfig({
         link: "/guide/intro",
         activeMatch: "/01.指南/",
       },
-      { text: "配置", link: "/reference/config", activeMatch: "/10.配置/" },
-      { text: "开发", link: "/develop/intro", activeMatch: "/15.主题开发/" },
+      { text: "结算", link: "/reference/config", activeMatch: "/10.结算/" },
+      { text: "API", link: "/develop/intro", activeMatch: "/15.API/" },
       {
         text: "资源",
         items: [
           { text: "案例", link: "/case" },
           { text: "常见问题", link: "/theme/qa" },
           { text: "功能拓展", link: "/expand/intro" },
-        ],
-      },
-      {
-        text: "生态",
-        items: [
-          { text: "Components 组件", link: "/ecosystem/components" },
-          { text: "运行时 API", link: "/reference/runtime-api" },
-          { text: "Helper 工具", link: "/ecosystem/helper" },
-          { text: "Composables 函数", link: "/ecosystem/composables" },
-          { text: "Markdown 插件工具", link: "/ecosystem/md-plugin-utils" },
         ],
       },
       {
@@ -187,16 +177,8 @@ export default defineConfig({
           { text: "标签页", link: "/tags" },
         ],
       },
-      { text: "✨ 赞赏", link: "/personal/" },
-      {
-        text: version,
-        items: [
-          { text: "历史版本", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/releases" },
-          { text: "更新日志", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/dev/CHANGELOG.md" },
-        ],
-      },
     ],
-    socialLinks: [{ icon: "github", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek" }],
+    socialLinks: [{ icon: "github", link: "https://market02.github.io/" }],
     search: {
       provider: "algolia",
       options: {
@@ -207,7 +189,7 @@ export default defineConfig({
     },
     editLink: {
       text: "在 GitHub 上编辑此页",
-      pattern: "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
+      pattern: "https://market02.github.io/edit/master/docs/:path",
     },
   },
   vite: {
