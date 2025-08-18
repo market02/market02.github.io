@@ -1,4 +1,4 @@
-import { nextTick, ref } from "vue";
+import { nextTick, readonly, ref } from "vue";
 import { isClient } from "@teek/helper";
 import { useScopeDispose } from "./useScopeDispose";
 
@@ -64,7 +64,7 @@ export const useUvPv = (immediate = false, options: UseUvPvOptions = {}) => {
   const sitePv = ref(0);
   const siteUv = ref(0);
   const pagePv = ref(0);
-  const isGet = ref<boolean | null>(null);
+  const isGet = ref(true);
 
   const request = () => {
     if (!isClient) return;
@@ -122,7 +122,13 @@ export const useUvPv = (immediate = false, options: UseUvPvOptions = {}) => {
     useScopeDispose(() => clearTimer(timer));
   }
 
-  return { sitePv, siteUv, pagePv, isGet, request };
+  return {
+    sitePv: readonly(sitePv),
+    siteUv: readonly(siteUv),
+    pagePv: readonly(pagePv),
+    isGet: readonly(isGet),
+    request,
+  };
 };
 
 /**

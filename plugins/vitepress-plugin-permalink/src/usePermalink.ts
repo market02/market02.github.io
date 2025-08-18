@@ -21,7 +21,7 @@ export default function usePermalink(executeBeforeMountFn = true) {
    *
    * @param href 访问的文档地址或 permalink
    */
-  const replaceUrlWhenPermalinkExist = (href: string) => {
+  const replaceUrlWhenPermalinkExist = async (href: string) => {
     if (!permalinkKeys.length) return;
 
     const { pathname, search, hash } = new URL(href, fakeHost);
@@ -34,11 +34,11 @@ export default function usePermalink(executeBeforeMountFn = true) {
 
     if (permalink) {
       // 存在 permalink 则在 URL 替换
-      return nextTick(() => {
+      return nextTick(async () => {
         const to = base.replace(/\/$/, "") + permalink + search + hash;
         history.replaceState(history.state || null, "", to);
 
-        router.onAfterUrlLoad?.(to);
+        await router.onAfterUrlLoad?.(to);
       });
     }
 
@@ -49,14 +49,14 @@ export default function usePermalink(executeBeforeMountFn = true) {
 
       // router.go 前清除当前历史记录，防止 router.go 后浏览器返回时回到当前历史记录时，又重定向过去，如此反复循环
       history.replaceState(history.state || null, "", targetUrl);
-      router.go(targetUrl);
-    } else router.onAfterUrlLoad?.(href);
+      await router.go(targetUrl);
+    } else await router.onAfterUrlLoad?.(href);
   };
 
   if (executeBeforeMountFn) {
-    onBeforeMount(() => {
+    onBeforeMount(async () => {
       if (!router.state.permalinkPlugin) router.state = { ...router.state, permalinkPlugin: true };
-      replaceUrlWhenPermalinkExist(window.location.href);
+      await replaceUrlWhenPermalinkExist(window.location.href);
     });
   }
 
@@ -99,9 +99,9 @@ export default function usePermalink(executeBeforeMountFn = true) {
     if (state.permalinkPlugin) return;
 
     const selfOnBeforeRouteChange = router.onBeforeRouteChange;
-    router.onBeforeRouteChange = (href: string) => {
+    router.onBeforeRouteChange = async (href: string) => {
       // 调用已有的 onBeforeRouteChange
-      const selfResult = selfOnBeforeRouteChange?.(href);
+      const selfResult = await selfOnBeforeRouteChange?.(href);
       if (selfResult === false) return false;
       if (href === base) return;
 
@@ -111,7 +111,7 @@ export default function usePermalink(executeBeforeMountFn = true) {
 
       if (filePath) {
         const targetUrl = base + filePath + search + hash;
-        router.go(targetUrl);
+        await router.go(targetUrl);
 
         // 阻止本次路由跳转
         return false;
@@ -119,11 +119,11 @@ export default function usePermalink(executeBeforeMountFn = true) {
     };
 
     const selfOnAfterRouteChange = router.onAfterRouteChange;
-    router.onAfterRouteChange = (href: string) => {
+    router.onAfterRouteChange = async (href: string) => {
       // 如果 permalink 存在，则替换掉 URL
-      replaceUrlWhenPermalinkExist(href);
+      await replaceUrlWhenPermalinkExist(href);
       // 调用已有的 onAfterRouteChange
-      selfOnAfterRouteChange?.(href);
+      await selfOnAfterRouteChange?.(href);
     };
 
     router.state = { ...router.state, permalinkPlugin: true };

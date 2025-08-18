@@ -2,26 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.4.2](https://github.com/Kele-Bingtang/vitepress-theme-teek/compare/v1.4.1...v1.4.2) (2025-08-17)
+### [1.4.3](https://github.com/Kele-Bingtang/vitepress-theme-teek/compare/v1.4.2...v1.4.3) (2025-08-18)
+
+### Features
+
+- **permalink:** 新增 Rewrites 方式生成永久链接 ([48622f8](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/48622f85f6fb99528e6b734b8fd7938d002b6065))
 
 ### Bug Fixes
 
-- **components:** 优化图片预览功能并修复 404 页面刷新问题 ([4d78dec](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/4d78dec372c1e8aea198b7e4ef955c9599f3bcdb))
-
-### Build System
-
-- 更新 vitepress-plugin-permalink 依赖 ([37c234f](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/37c234fe4b6c8f45c5649542184bdaa0884048fa))
-
-### Code Refactoring
-
-- **.github:** 更新 issue 模板并优化路由跳转逻辑 ([b12e108](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/b12e10839c7765d890bee580cbf9bccf4450b215))
-- **teek:** 优化永久链接处理逻辑 ([aef7946](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/aef79466296e5ae660b1c8f2e3049bce9c34df6a))
+- **config:** 更新 vitepress-plugin-permalink 版本并修复浏览器导航问题 ([ba86e11](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/ba86e115babe7856831b1ea30007de022d3127e8))
+- **router:** 修复 permalink 返回 404 的问题 ([9a2a469](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/9a2a4693c88ca812572e308a894c69ef2de68e5a))
+- **statistics:** 优化页面和站点访问统计功能 ([35028c3](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/35028c3f9708b3cb5c31b9efa1b9d352b1bbd81c))
+- **teek:** 修复 permalink 插件禁用时导致的项目无法启动问题 ([b2f0af8](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/b2f0af8b5b9d80356925de2c82f8f36262d049a5))
+- **vitepress-plugin-permalink:** 修复浏览器前进后退 404 问题 ([c383f30](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/c383f302cc72c1e32f05cd928b18df5196ee2686))
 
 ### Docs
 
-- **changelog:** v1.4.1 版本发布 ([cacbed1](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/cacbed1b81f0eb8d0056e8333d02025b2c029633))
-- **changelog:** 更新 CHANGELOG.md 文件 ([9ec9379](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/9ec93795f91f0a9ce23b4fbc439b2868f4e1dada))
-- **search:** 为 VitePress 配置 Algolia 搜索并调整标记样式 ([6fbce9e](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/6fbce9ee6d995d66afcf2abf274e74a978cd19ac))
+- **changelog:** 📚 v1.4.2 版本发布 ([a38313f](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/a38313ffcdd7bc9fdd6cf7f360a4fb9868e4994d))
+
+### Code Refactoring
+
+- **permalink:** 更新永久链接插件并调整路由跳转逻辑 ([cfc8655](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/cfc8655c4c2653efb082dbea6132cbce6ba7fe49))
+- **permalink:** 永久链接功能 404 优化 ([71d178e](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/71d178e1e40c58905612aa5d8e50e0e00a2e5d38))
+
+## [1.4.2](https://github.com/Kele-Bingtang/vitepress-theme-teek/compare/v1.4.1...v1.4.2) (2025-08-17)
+
+### Bug Fixes
+
+- **components:** 🐞 优化图片预览功能并修复 404 页面刷新问题 ([4d78dec](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/4d78dec372c1e8aea198b7e4ef955c9599f3bcdb))
+
+### Build System
+
+- 📦️ 更新 vitepress-plugin-permalink 依赖 ([37c234f](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/37c234fe4b6c8f45c5649542184bdaa0884048fa))
+
+### Code Refactoring
+
+- **.github:** ♻️ 更新 issue 模板并优化路由跳转逻辑 ([b12e108](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/b12e10839c7765d890bee580cbf9bccf4450b215))
+- **teek:** ♻️ 优化永久链接处理逻辑 ([aef7946](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/aef79466296e5ae660b1c8f2e3049bce9c34df6a))
+
+### Docs
+
+- **changelog:** 📚 v1.4.1 版本发布 ([cacbed1](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/cacbed1b81f0eb8d0056e8333d02025b2c029633))
+- **changelog:** 📚 更新 CHANGELOG.md 文件 ([9ec9379](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/9ec93795f91f0a9ce23b4fbc439b2868f4e1dada))
+- **search:** 📚 为 VitePress 配置 Algolia 搜索并调整标记样式 ([6fbce9e](https://github.com/Kele-Bingtang/vitepress-theme-teek/commit/6fbce9ee6d995d66afcf2abf274e74a978cd19ac))
 
 ## [1.4.1](https://github.com/Kele-Bingtang/vitepress-theme-teek/compare/v1.4.0...v1.4.1) (2025-08-17)
 
