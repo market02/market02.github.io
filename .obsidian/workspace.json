@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01.指南/01.简介/20.结构化目录.md",
+                "file": "docs/15.API/01.开发思路.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20.结构化目录"
+              "title": "01.开发思路"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/01.指南/01.简介/20.结构化目录.md",
+                "file": "docs/15.API/01.开发思路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "20.结构化目录 的反向链接列表"
+              "title": "01.开发思路 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/01.指南/01.简介/20.结构化目录.md",
+                "file": "docs/15.API/01.开发思路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "20.结构化目录 的出链列表"
+              "title": "01.开发思路 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/01.指南/01.简介/20.结构化目录.md",
+                "file": "docs/15.API/01.开发思路.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "20.结构化目录 的大纲"
+              "title": "01.开发思路 的大纲"
             }
           },
           {
@@ -182,7 +182,34 @@
   },
   "active": "788667d2fa313074",
   "lastOpenFiles": [
-    "docs/01.指南/01.简介/10.快速开始.md",
-    "docs/01.指南/01.简介/01.简介.md"
+    "docs/01.指南/01.简介/20.API使用.md",
+    "docs/01.指南/01.简介/10.快速开始 - 副本.md",
+    "docs/01.指南/10.分享者操作/20.快速生成压缩包.md",
+    "docs/01.指南/10.分享者操作/15.结算操作 - 副本.md",
+    "docs/01.指南/20.终端用户操作/10.申诉.md",
+    "docs/01.指南/20.终端用户操作/05.查找订单.md",
+    "docs/01.指南/20.终端用户操作/02.扫码取码.md",
+    "docs/01.指南/10.分享者操作/15.结算操作.md",
+    "docs/01.指南/20.终端用户操作/99.鸣谢.md",
+    "docs/01.指南/20.终端用户操作/15.笔记技巧.md",
+    "docs/01.指南/20.终端用户操作/10.写作排版.md",
+    "docs/01.指南/20.终端用户操作/05.路由钩子.md",
+    "docs/01.指南/20.终端用户操作/02.插槽布局.md",
+    "docs/01.指南/20.终端用户操作",
+    "docs/01.指南/10.分享者操作/15.用户支付.md",
+    "docs/01.指南/10.分享者操作/10.发布商品.md",
+    "docs/01.指南/10.分享者操作/05.注册登录.md",
+    "docs/01.指南/10.分享者操作",
+    "docs/01.指南/20.相关/99.鸣谢.md",
+    "docs/01.指南/20.相关/15.笔记技巧.md",
+    "docs/01.指南/20.相关/10.写作排版.md",
+    "docs/01.指南/20.相关/05.路由钩子.md",
+    "docs/01.指南/20.相关/02.插槽布局.md",
+    "docs/01.指南/20.相关",
+    "docs/01.指南/10.使用/15.用户支付.md",
+    "docs/01.指南/10.使用/10.发布商品.md",
+    "docs/01.指南/10.使用/05.注册登录.md",
+    "docs/01.指南/01.简介/20.结构化目录.md",
+    "docs/01.指南/01.简介/10.快速开始.md"
   ]
 }
