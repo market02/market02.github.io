@@ -180,8 +180,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "674df3f8817966f1",
+  "active": "788667d2fa313074",
   "lastOpenFiles": [
+    "docs/01.指南/10.使用/40.图标使用.md",
+    "docs/01.指南/10.使用",
+    "node_modules",
+    "_tmp_29872_59c9f8b98ca0e7c9d5669d50e3e23415",
     "docs/20.资源/01.相关平台/05.资源分享平台.md",
     "docs/01.指南/10.分享者操作/15.结算操作.md",
     "docs/20.资源/01.相关平台/01.网盘推荐.md",
@@ -223,9 +227,6 @@
     "docs/01.指南/01.简介/01.简介.md",
     "docs/01.指南/20.终端用户操作/assert",
     "docs/01.指南/10.分享者操作/assert",
-    "docs/01.指南/01.简介/assert",
-    "docs/01.指南/20.终端用户操作",
-    "docs/01.指南/10.分享者操作",
-    "docs/01.指南/20.相关"
+    "docs/01.指南/01.简介/assert"
   ]
 }
