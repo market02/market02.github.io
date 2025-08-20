@@ -1,4 +1,4 @@
-import type { TeekConfig } from "@teek/config";
+import type { TeekConfig } from "vitepress-theme-teek/lib/config";
 
 // 文档配置
 export const teekDocConfig: TeekConfig = {
@@ -30,7 +30,8 @@ const teekBlogCommonConfig: TeekConfig = {
       {
         name: "Teeker",
         desc: "朝圣的使徒，正在走向编程的至高殿堂！",
-        avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
+        avatar:
+          "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
         link: "http://notes.teek.top/",
       },
       {

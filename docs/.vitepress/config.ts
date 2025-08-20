@@ -1,12 +1,9 @@
 import { defineConfig } from "vitepress";
 import llmstxt from "vitepress-plugin-llms";
-// 本地 Teek 主题包引用（与 Teek 在线主题包引用 二选一）
-import { defineTeekConfig } from "../../packages/config";
-import { version } from "../../packages/teek/version";
 
 // Teek 在线主题包引用（需安装 Teek 在线版本）
-// import { defineTeekConfig } from "vitepress-theme-teek/config";
-// import { version } from "vitepress-theme-teek/es/version";
+ import { defineTeekConfig } from "vitepress-theme-teek/config";
+ import { version } from "vitepress-theme-teek/es/version";
 
 const description = [
   "欢迎来到 80fafa 使用文档",
@@ -70,7 +67,7 @@ const teekConfig = defineTeekConfig({
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "vitepress-theme-teek",
+  title: "80fafa - 帮您发发",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
