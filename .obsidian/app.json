@@ -4,5 +4,6 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "attachmentFolderPath": "./assert",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "promptDelete": false
 }

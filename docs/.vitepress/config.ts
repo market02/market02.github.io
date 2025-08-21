@@ -173,9 +173,15 @@ export default defineConfig({
       {
         text: "资源",
         items: [
-          { text: "案例", link: "/case" },
-          { text: "常见问题", link: "/theme/qa" },
-          { text: "功能拓展", link: "/expand/intro" },
+          { text: "网盘推荐", link: "/resource", activeMatch: "/resource/" },
+          {
+            text: "资源分享平台",
+            link: "/resource/share",
+            activeMatch: "/resource/share/",
+          },
+          // { text: "案例", link: "/case" },
+          // { text: "常见问题", link: "/theme/qa" },
+          // { text: "功能拓展", link: "/expand/intro" },
         ],
       },
       {
