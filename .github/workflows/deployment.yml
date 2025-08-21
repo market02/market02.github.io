@@ -44,7 +44,8 @@ jobs:
         run: pnpm install # 使用 pnpm 安装依赖
 
       - name: Build with VitePress
-        run: pnpm stub && pnpm build && pnpm run docs:build # 使用 pnpm 运行构建
+        # run: pnpm stub && pnpm build && pnpm run docs:build # 使用 pnpm 运行构建
+        run: pnpm run docs:build # 只运行实际存在的脚本
       - name: Debug - Check secrets
         run: |
           echo "Server IP length: ${#SERVER_IP}"
