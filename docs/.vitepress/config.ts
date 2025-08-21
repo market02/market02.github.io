@@ -173,10 +173,14 @@ export default defineConfig({
       {
         text: "资源",
         items: [
-          { text: "网盘推荐", link: "/resource", activeMatch: "/resource/" },
+          {
+            text: "网盘推荐",
+            link: "/20.资源/01.网盘推荐",
+            activeMatch: "/20.资源/01.网盘推荐/",
+          },
           {
             text: "资源分享平台",
-            link: "/resource/share",
+            link: "/20.资源/05.资源分享平台",
             activeMatch: "/resource/share/",
           },
           // { text: "案例", link: "/case" },

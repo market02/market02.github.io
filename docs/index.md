@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/quickstart
+      link: /01.指南/01.简介/10.快速开始
     - theme: alt
       text: 结算
       link: /reference/config
@@ -38,7 +38,7 @@ features:
 
 80fafa 可以帮您发码、取码、支付、结算。快速达成你的自由交易。
 
-80fafa 可以支持API调用，通过快速发布商品，生成密码，你可以快速集成到网站应用当中。
+80fafa 可以支持 API 调用，通过快速发布商品，生成密码，你可以快速集成到网站应用当中。
 
 ## 💡 反馈交流
 
