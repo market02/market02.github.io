@@ -38,7 +38,7 @@ features:
     link: /01.指南/01.简介/01.简介
 ---
 
-## 风格切换
+## 业务范围
 
 80fafa 可以帮您发码、取码、支付、结算。快速达成你的自由交易。
 
@@ -50,7 +50,7 @@ features:
 
 请加入或者加入我们的交流群（添加我的微信并备注 <mark>进群</mark>）：
 
-<img src="https://gcore.jsdelivr.net/gh/Kele-Bingtang/static/index/20250412000919.png" alt="添加我微信备注「进群」" style="width: 180px;" />
+<img src="https://cdn.jsdelivr.net/gh/market02/jsdelivr-picture@main/weixinma.jpg" alt="添加我微信备注「进群」" style="width: 180px;" />
 
 如果图片链接失效，可以在微信右上角 -> 添加朋友，然后搜索 `80fafa` 来添加我的微信。
 
