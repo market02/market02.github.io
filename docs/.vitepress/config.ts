@@ -73,6 +73,10 @@ export default defineConfig({
   cleanUrls: false,
   lastUpdated: true,
   lang: "zh-CN",
+  // 添加 srcExclude 配置
+  srcExclude: [
+    '**/assert/**',     // 排除所有 assert 目录
+  ],
   head: [
     [
       "link",
