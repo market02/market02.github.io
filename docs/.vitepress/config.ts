@@ -76,6 +76,8 @@ export default defineConfig({
   // 添加 srcExclude 配置
   srcExclude: [
     '**/assert/**',     // 排除所有 assert 目录
+    '**/*/assert/**',      // 确保多层目录下的 assert 也被排除
+    '**/*/assert/*.md',    // 排除 assert 目录下的 markdown 文件
   ],
   head: [
     [

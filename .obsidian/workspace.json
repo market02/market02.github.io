@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01.指南/10.分享者操作/20.快速生成压缩包.md",
+                "file": "docs/Moni/10.应用场景.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20.快速生成压缩包"
+              "title": "10.应用场景"
             }
           }
         ]
@@ -193,18 +193,29 @@
   },
   "active": "74564af275f892df",
   "lastOpenFiles": [
+    "docs/Moni/01.使用方法.md",
+    "docs/Moni/10.应用场景.md",
+    "docs/Moni/assert/Quicker_20250915_155049.png",
+    "docs/Moni/assert/Quicker_20250915_154808 1.png",
+    "docs/Moni/assert/2025-09-15_154920.png",
+    "docs/Moni/assert/Quicker_20250915_154808.png",
+    "docs/Moni/assert/Quicker_20250915_153531.png",
+    "docs/Moni/assert/2025-09-15_153627.png",
+    "docs/Moni/assert/2025-09-15_153454.png",
+    "docs/Moni/assert/Quicker_20250915_152232.png",
+    "docs/Moni/assert/2025-09-15_151449.png",
+    "docs/Moni/assert/2025-09-15_151422.png",
+    "docs/Moni/assert",
+    "docs/20.资源/01.网盘推荐.md",
+    "docs/20.资源/05.资源分享平台.md",
+    "docs/Moni/10.主题配置.md",
+    "docs/Moni/01.开发思路.md",
+    "docs/Moni/05.应用场景.md",
     "docs/01.指南/10.分享者操作/20.快速生成压缩包.md",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756719306_451 2.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_base64_1756805094_446 1.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_base64_1756805094_446.png",
+    "docs/Moni",
+    "docs/未命名.canvas",
+    "未命名",
     "docs/01.指南/10.分享者操作/10.发布商品.md",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756717928_649.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756717655_423 1.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756717236_666 1.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756717655_423.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756717236_666.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756717284_634.png",
-    "docs/01.指南/10.分享者操作/assert/tapd_32823805_1756717105_656 1.png",
     "docs/01.指南/01.简介/01.简介.md",
     "docs/01.指南/01.简介/20.API使用.md",
     "docs/01.指南/01.简介/10.快速开始.md",
@@ -215,8 +226,6 @@
     "2025-08-28.md",
     "未命名.canvas",
     "docs/20.资源/未命名.md",
-    "docs/20.资源/05.资源分享平台.md",
-    "docs/20.资源/01.网盘推荐.md",
     "docs/15.API/10.主题配置.md",
     "docs/15.API/01.开发思路.md",
     "docs/01.指南/20.终端用户操作/10.申诉.md",
@@ -225,19 +234,11 @@
     "_tmp_6080_f42a980fcd02790d6834c1288ffb354e",
     "docs/20.资源/10压缩工具.md",
     "docs/20.资源/05.资源分享平台 - 副本.md",
-    "docs/20.资源/10.压缩工具.md",
-    "docs/01.指南/目录.md",
     "docs/20.资源/assert",
-    "docs/20.资源/01.相关平台/05.资源分享平台.md",
-    "docs/20.资源/01.相关平台/01.网盘推荐.md",
     "_tmp_31288_b76cca175a0815ee8b83780be4145a09",
-    "docs/01.指南/25.使用/01.图标使用.md",
     "docs/01.指南/25.使用",
     "node_modules",
     "_tmp_29872_59c9f8b98ca0e7c9d5669d50e3e23415",
-    "docs/20.资源/01.相关平台/assert",
-    "docs/20.资源/05.案例",
-    "docs/20.资源/新建文件夹",
-    "docs/20.资源/10.常见问题"
+    "docs/20.资源/01.相关平台/assert"
   ]
 }
