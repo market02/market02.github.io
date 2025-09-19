@@ -11,14 +11,10 @@
             "id": "74564af275f892df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Moni/10.应用场景.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "10.应用场景"
+              "title": "新标签页"
             }
           }
         ]
@@ -193,18 +189,22 @@
   },
   "active": "74564af275f892df",
   "lastOpenFiles": [
-    "docs/Moni/01.使用方法.md",
     "docs/Moni/10.应用场景.md",
-    "docs/Moni/assert/Quicker_20250915_155049.png",
-    "docs/Moni/assert/Quicker_20250915_154808 1.png",
-    "docs/Moni/assert/2025-09-15_154920.png",
-    "docs/Moni/assert/Quicker_20250915_154808.png",
-    "docs/Moni/assert/Quicker_20250915_153531.png",
-    "docs/Moni/assert/2025-09-15_153627.png",
-    "docs/Moni/assert/2025-09-15_153454.png",
-    "docs/Moni/assert/Quicker_20250915_152232.png",
-    "docs/Moni/assert/2025-09-15_151449.png",
-    "docs/Moni/assert/2025-09-15_151422.png",
+    "docs/25.Moni/assert/Quicker_20250916_093554.png",
+    "docs/25.Moni/assert/Quicker_20250916_093421.png",
+    "docs/25.Moni/assert/Quicker_20250915_155049.png",
+    "docs/25.Moni/assert/Quicker_20250915_154808.png",
+    "docs/25.Moni/assert/Quicker_20250915_154808 1.png",
+    "docs/25.Moni/assert/Quicker_20250915_153531.png",
+    "docs/25.Moni/assert/Quicker_20250915_152232.png",
+    "docs/25.Moni/assert/Quicker_20250915_143238.png",
+    "docs/25.Moni/assert/Quicker_20250915_142857.png",
+    "docs/25.Moni/assert/Quicker_20250915_142857 1.png",
+    "docs/25.Moni/assert",
+    "docs/25.Moni/10.应用场景.md",
+    "docs/25.Moni/01.使用方法.md",
+    "docs/25.Moni",
+    "docs/Moni/01.使用方法.md",
     "docs/Moni/assert",
     "docs/20.资源/01.网盘推荐.md",
     "docs/20.资源/05.资源分享平台.md",
@@ -232,13 +232,9 @@
     "docs/01.指南/20.终端用户操作/05.查找订单.md",
     "docs/01.指南/10.分享者操作/15.结算操作.md",
     "_tmp_6080_f42a980fcd02790d6834c1288ffb354e",
-    "docs/20.资源/10压缩工具.md",
-    "docs/20.资源/05.资源分享平台 - 副本.md",
     "docs/20.资源/assert",
     "_tmp_31288_b76cca175a0815ee8b83780be4145a09",
     "docs/01.指南/25.使用",
-    "node_modules",
-    "_tmp_29872_59c9f8b98ca0e7c9d5669d50e3e23415",
-    "docs/20.资源/01.相关平台/assert"
+    "node_modules"
   ]
 }
