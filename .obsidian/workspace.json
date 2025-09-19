@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01.指南/10.分享者操作/20.快速生成压缩包.md",
+                "file": "docs/15.API/10.主题配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20.快速生成压缩包"
+              "title": "10.主题配置"
             }
           }
         ]
@@ -191,42 +191,42 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9605ef24195da99a",
+  "active": "74564af275f892df",
   "lastOpenFiles": [
-    "docs/01.指南/20.终端用户操作/_assert/企业微信截图_17556728644961 1.png",
-    "docs/01.指南/20.终端用户操作/_assert/tapd_32823805_1755073230_817.png",
-    "docs/01.指南/20.终端用户操作/_assert/tapd_32823805_1755073031_337.png",
-    "docs/01.指南/20.终端用户操作/_assert/tapd_32823805_1755073003_567 (1).png",
-    "docs/01.指南/20.终端用户操作/_assert/tapd_32823805_1755072972_598.png",
-    "docs/01.指南/20.终端用户操作/_assert/tapd_32823805_1753149353_759.png",
-    "docs/01.指南/20.终端用户操作/_assert/tapd_32823805_1753149197_490 1.png",
-    "docs/01.指南/20.终端用户操作/_assert/2025-08-20_140539.png",
-    "docs/01.指南/20.终端用户操作/_assert/2025-08-19_162236.png",
+    "docs/15.API/01.开发思路.md",
+    "docs/01.指南/10.分享者操作/20.快速生成压缩包.md",
+    "docs/25.Moni/assert/Quicker_20250916_093554.png",
+    "docs/25.Moni/assert/Quicker_20250916_093421.png",
+    "docs/25.Moni/assert/Quicker_20250915_154808.png",
+    "docs/25.Moni/assert/Quicker_20250915_155049.png",
+    "docs/25.Moni/assert/Quicker_20250915_154808 1.png",
+    "docs/25.Moni/assert/Quicker_20250915_153531.png",
+    "docs/25.Moni/assert/Quicker_20250915_152232.png",
+    "docs/25.Moni/assert/Quicker_20250915_143238.png",
+    "docs/25.Moni/assert/Quicker_20250915_142857.png",
+    "docs/25.Moni/assert/Quicker_20250915_142857 1.png",
+    "docs/25.Moni/assert",
+    "docs/20.资源/assert",
+    "docs/01.指南/20.终端用户操作/assert",
+    "docs/01.指南/10.分享者操作/assert",
+    "docs/01.指南/01.简介/assert",
     "docs/01.指南/20.终端用户操作/_assert",
-    "docs/01.指南/10.分享者操作/_assert/企业微信截图_1755674121352.png",
-    "docs/01.指南/10.分享者操作/_assert/企业微信截图_1755674052894.png",
     "docs/01.指南/10.分享者操作/_assert",
     "docs/01.指南/01.简介/_assert",
     "docs/25.Moni/_assert",
     "docs/20.资源/_assert",
-    "docs/25.Moni/assert",
     "docs/25.Moni/10.应用场景.md",
     "docs/25.Moni/01.使用方法.md",
-    "docs/25.Moni",
-    "docs/25.Moni.md/assert",
     "docs/25.Moni.md/10.应用场景.md",
     "docs/25.Moni.md/01.使用方法.md",
     "docs/25.Moni.md",
     "docs/Moni/10.应用场景.md",
     "docs/Moni/01.使用方法.md",
-    "docs/Moni/assert",
     "docs/20.资源/01.网盘推荐.md",
     "docs/20.资源/05.资源分享平台.md",
     "docs/Moni/10.主题配置.md",
     "docs/Moni/01.开发思路.md",
     "docs/Moni/05.应用场景.md",
-    "docs/01.指南/10.分享者操作/20.快速生成压缩包.md",
-    "docs/Moni",
     "docs/未命名.canvas",
     "docs/01.指南/10.分享者操作/10.发布商品.md",
     "docs/01.指南/01.简介/01.简介.md",
@@ -239,7 +239,6 @@
     "2025-08-28.md",
     "未命名.canvas",
     "docs/20.资源/未命名.md",
-    "docs/15.API/10.主题配置.md",
-    "docs/15.API/01.开发思路.md"
+    "docs/15.API/10.主题配置.md"
   ]
 }

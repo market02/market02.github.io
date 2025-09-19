@@ -74,11 +74,8 @@ export default defineConfig({
   lastUpdated: true,
   lang: "zh-CN",
   // 添加 srcExclude 配置
-  srcExclude: [
-    '**/assert/**',     // 排除所有 assert 目录
-    '**/*/assert/**',      // 确保多层目录下的 assert 也被排除
-    '**/*/assert/*.md',    // 排除 assert 目录下的 markdown 文件
-  ],
+  
+
   head: [
     [
       "link",
@@ -171,11 +168,12 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       {
-        text: "指南",
+        text: "80fafa指南",
         link: "/guide/intro",
         activeMatch: "/01.指南/",
       },
-      { text: "API", link: "/develop/intro", activeMatch: "/15.API/" },
+      { text: "80fafa API", link: "/15.API/10.主题配置", activeMatch: "/15.API/" },
+      { text: "Moni", link: "/25.Moni/01.使用方法", activeMatch: "/25.Moni/" },
       {
         text: "资源",
         items: [
@@ -189,9 +187,6 @@ export default defineConfig({
             link: "/20.资源/05.资源分享平台",
             activeMatch: "/resource/share/",
           },
-          // { text: "案例", link: "/case" },
-          // { text: "常见问题", link: "/theme/qa" },
-          // { text: "功能拓展", link: "/expand/intro" },
         ],
       },
       {
