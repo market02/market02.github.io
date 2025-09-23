@@ -167,13 +167,68 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
+      // {
+      //   text: "80fafa指南",
+      //   link: "/guide/intro",
+      //   activeMatch: "/01.指南/",
+      // },
+      // { text: "80fafa API", link: "/15.API/10.主题配置", activeMatch: "/15.API/" },
+      // { text: "Moni", link: "/25.Moni/01.使用方法", activeMatch: "/25.Moni/" },
       {
         text: "80fafa指南",
-        link: "/guide/intro",
-        activeMatch: "/01.指南/",
+        items: [
+          {
+            text: "简介",
+            link: "/01.80fafa指南/01.简介/01.简介",
+            activeMatch: "/01.80fafa指南/01.简介/01.简介",
+          },
+          {
+            text: "分享者操作",
+            link: "/01.80fafa指南/10.分享者操作/10.发布商品",
+            activeMatch: "/01.80fafa指南/10.分享者操作/10.发布商品",
+          },
+          {
+            text: "终端用户操作",
+            link: "/01.80fafa指南/20.终端用户操作/02.扫码取码",
+            activeMatch: "/01.80fafa指南/20.终端用户操作/02.扫码取码",
+          },
+        ],
       },
-      { text: "80fafa API", link: "/15.API/10.主题配置", activeMatch: "/15.API/" },
-      { text: "Moni", link: "/25.Moni/01.使用方法", activeMatch: "/25.Moni/" },
+      {
+        text: "80fafa API",
+        items: [
+          {
+            text: "开发思路",
+            link: "/15.80fafa API/01.开发思路",
+            activeMatch: "/15.80fafa API/01.开发思路/",
+          },
+          {
+            text: "主题配置",
+            link: "/15.80fafa API/10.主题配置",
+            activeMatch: "/15.80fafa API/10.主题配置/",
+          },
+        ],
+      },
+      {
+        text: "Moni介绍",
+        items: [
+          {
+            text: "快速了解",
+            link: "/25.Moni介绍/01.快速了解",
+            activeMatch: "/25.Moni介绍/01.快速了解/",
+          },
+          {
+            text: "使用方法",
+            link: "/25.Moni介绍/05.使用方法",
+            activeMatch: "/25.Moni介绍/05.使用方法/",
+          },
+          {
+            text: "应用场景",
+            link: "/25.Moni介绍/10.应用场景",
+            activeMatch: "/25.Moni介绍/10.应用场景/",
+          },
+        ],
+      },
       {
         text: "资源",
         items: [
@@ -216,7 +271,7 @@ export default defineConfig({
     editLink: {
       text: "在 GitHub 上编辑此页",
       pattern: "https://market02.github.io/edit/master/docs/:path",
-    },
+    }, 
   },
   vite: {
     plugins: [llmstxt() as any],
