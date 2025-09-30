@@ -198,14 +198,14 @@ export default defineConfig({
         text: "80fafa API",
         items: [
           {
-            text: "开发思路",
-            link: "/15.80fafa API/01.开发思路",
-            activeMatch: "/15.80fafa API/01.开发思路/",
+            text: "API介绍",
+            link: "/15.80fafa API/01.API介绍/01.登录API介绍",
+            activeMatch: "/15.80fafa API/01.API介绍/01.登录API介绍",
           },
           {
-            text: "主题配置",
-            link: "/15.80fafa API/10.主题配置",
-            activeMatch: "/15.80fafa API/10.主题配置/",
+            text: "API使用方法",
+            link: "/15.80fafa API/10.API使用方法/01.API使用方法1",
+            activeMatch: "/15.80fafa API/10.API使用方法/01.API使用方法1",
           },
         ],
       },
