@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/15.80fafa API/01.API介绍/10.创建商品API介绍.md",
+                "file": "docs/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.创建商品API介绍"
+              "title": "01.80fafa登录API调用方法"
             }
           }
         ]
@@ -162,7 +162,7 @@
             }
           },
           {
-            "id": "a694b6f7a16a5766",
+            "id": "d41af3d07bf6b17d",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -193,14 +193,33 @@
   },
   "active": "74564af275f892df",
   "lastOpenFiles": [
+    "docs/15.80fafa API/10.API使用方法/10.80fafa新建商品API调用方法.md",
+    "docs/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法.md",
+    "docs/15.80fafa API/01.API介绍/10.80fafa创建商品API介绍.md",
+    "docs/15.80fafa API/01.API介绍/01.80fafa登录API介绍.md",
+    "docs/20.资源/05.资源分享平台.md",
     "docs/20.资源/01.网盘推荐.md",
-    "docs/15.80fafa API/10.API使用方法/10.API使用方法2.md",
-    "docs/15.80fafa API/10.API使用方法/01.API使用方法1.md",
-    "docs/15.80fafa API/01.API介绍/10.创建商品API介绍.md",
-    "docs/15.80fafa API/01.API介绍/01.登录API介绍.md",
-    "docs/01.80fafa指南/20.终端用户操作/10.申诉.md",
-    "docs/01.80fafa指南/20.终端用户操作/05.查找订单.md",
+    "docs/25.Moni介绍/10.应用场景.md",
+    "docs/25.Moni介绍/05.使用方法.md",
+    "docs/25.Moni介绍/01.快速了解.md",
+    "2025-08-28.md",
+    "readme.md",
+    "未命名.md",
+    "未命名.canvas",
     "docs/01.80fafa指南/20.终端用户操作/02.扫码取码.md",
+    "docs/01.80fafa指南/20.终端用户操作/05.查找订单.md",
+    "docs/15.80fafa API/01.API介绍/assert/1 4.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_base64_1759215025_613 1.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_base64_1759215025_613.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_base64_1759214982_349 1.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_base64_1759214982_349.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759203169_488.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202870_454.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202803_374 1.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202803_374.png",
+    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202594_425.png",
+    "docs/15.80fafa API/10.API使用方法/assert",
+    "docs/01.80fafa指南/20.终端用户操作/10.申诉.md",
     "docs/01.80fafa指南/10.分享者操作/20.快速生成压缩包.md",
     "docs/01.80fafa指南/10.分享者操作/15.结算操作.md",
     "docs/01.80fafa指南/10.分享者操作/10.发布商品.md",
@@ -208,28 +227,11 @@
     "docs/01.80fafa指南/01.简介/20.API使用.md",
     "docs/01.80fafa指南/01.简介/10.快速开始.md",
     "docs/01.80fafa指南/01.简介/01.简介.md",
-    "docs/15.80fafa API/01.API介绍/assert/1 4.png",
-    "docs/15.80fafa API/01.API介绍/assert/1 3.png",
-    "docs/15.80fafa API/01.API介绍/assert/1 2.png",
-    "docs/15.80fafa API/01.API介绍/assert/2.png",
-    "docs/15.80fafa API/01.API介绍/assert/1 1.png",
-    "docs/15.80fafa API/01.API介绍/assert/1.png",
-    "docs/15.80fafa API/01.API介绍/assert/qw 1.png",
-    "docs/15.80fafa API/01.API介绍/assert/成功展示2 2.png",
-    "docs/15.80fafa API/01.API介绍/assert/成功展示2 1.png",
-    "docs/15.80fafa API/01.API介绍/assert/成功展示2.png",
     "docs/15.80fafa API/01.API介绍/assert",
-    "docs/25.Moni介绍/01.快速了解.md",
-    "docs/25.Moni介绍/05.使用方法.md",
-    "docs/25.Moni介绍/10.应用场景.md",
     "docs/01.80fafa指南/目录.md",
     "docs/15.80fafa API/01.API介绍/10.登录API介绍.md",
     "docs/15.80fafa API/01.API介绍/01.创建商品API介绍.md",
     "docs/15.80fafa API/10.API使用方法/10.API使用方法1.md",
-    "docs/15.80fafa API/10.API使用方法/10.API使用方法.md",
-    "docs/15.80fafa API/10.API使用方法/10.API使用方法1 - 副本.md",
-    "docs/15.80fafa API/01.API介绍/01..md",
-    "docs/15.80fafa API/01.API介绍/10.API使用方法.md",
     "docs/15.80fafa API/10.API使用方法",
     "docs/15.80fafa API/01.API介绍",
     "未命名",
@@ -238,8 +240,6 @@
     "docs/15.80fafaAPI",
     "docs/01.80fafa指南/20.终端用户操作/assert",
     "docs/01.80fafa指南/10.分享者操作/assert",
-    "docs/01.80fafa指南/01.简介/assert",
-    "未命名.canvas",
     "docs/未命名.canvas"
   ]
 }
