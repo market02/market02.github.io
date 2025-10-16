@@ -230,6 +230,26 @@ export default defineConfig({
         ],
       },
       {
+        text: "Stopnet介绍",
+        items: [
+          {
+            text: "快速了解",
+            link: "/30.Stopnet介绍/01.快速了解",
+            activeMatch: "/30.Stopnet介绍/01.快速了解/",
+          },
+          {
+            text: "使用方法",
+            link: "/30.Stopnet介绍/05.使用方法",
+            activeMatch: "/30.Stopnet介绍/05.使用方法/",
+          },
+          {
+            text: "应用场景",
+            link: "/30.Stopnet介绍/10.应用场景",
+            activeMatch: "/30.Stopnet介绍/10.应用场景/",
+          },
+        ],
+      },
+      {
         text: "资源",
         items: [
           {
