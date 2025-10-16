@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.80fafa登录API调用方法"
+              "title": "index"
             }
           }
         ]
@@ -193,8 +193,12 @@
   },
   "active": "74564af275f892df",
   "lastOpenFiles": [
-    "docs/15.80fafa API/10.API使用方法/10.80fafa新建商品API调用方法.md",
+    "docs/assert/weixinma 2.jpg",
+    "docs/assert/weixinma 1.jpg",
+    "docs/assert/weixinma.jpg",
+    "docs/assert",
     "docs/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法.md",
+    "docs/15.80fafa API/10.API使用方法/10.80fafa新建商品API调用方法.md",
     "docs/15.80fafa API/01.API介绍/10.80fafa创建商品API介绍.md",
     "docs/15.80fafa API/01.API介绍/01.80fafa登录API介绍.md",
     "docs/20.资源/05.资源分享平台.md",
@@ -216,8 +220,6 @@
     "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759203169_488.png",
     "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202870_454.png",
     "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202803_374 1.png",
-    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202803_374.png",
-    "docs/15.80fafa API/10.API使用方法/assert/tapd_32823805_1759202594_425.png",
     "docs/15.80fafa API/10.API使用方法/assert",
     "docs/01.80fafa指南/20.终端用户操作/10.申诉.md",
     "docs/01.80fafa指南/10.分享者操作/20.快速生成压缩包.md",
@@ -231,7 +233,6 @@
     "docs/01.80fafa指南/目录.md",
     "docs/15.80fafa API/01.API介绍/10.登录API介绍.md",
     "docs/15.80fafa API/01.API介绍/01.创建商品API介绍.md",
-    "docs/15.80fafa API/10.API使用方法/10.API使用方法1.md",
     "docs/15.80fafa API/10.API使用方法",
     "docs/15.80fafa API/01.API介绍",
     "未命名",
@@ -239,7 +240,6 @@
     "docs/15.80fafa API",
     "docs/15.80fafaAPI",
     "docs/01.80fafa指南/20.终端用户操作/assert",
-    "docs/01.80fafa指南/10.分享者操作/assert",
     "docs/未命名.canvas"
   ]
 }
