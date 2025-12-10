@@ -172,7 +172,7 @@ export default defineConfig({
           {
             text: "简介",
             link: "/01.80fafa/01.简介/01.简介",
-            activeMatch: "/01.80fafa指南/01.简介/01.简介",
+            activeMatch: "/01.80fafa/01.简介/01.简介",
           },
           {
             text: "分享者操作",
@@ -191,7 +191,7 @@ export default defineConfig({
         items: [
           {
             text: "API介绍",
-            link: "/15.API/01.API介绍/01.80fafa登录API介绍",
+            link: "/15.API/01.API/01.80fafa登录API介绍",
             activeMatch: "/15.API/01.API介绍/01.80fafa登录API介绍",
           },
           {
@@ -216,7 +216,7 @@ export default defineConfig({
           },
           {
             text: "应用场景",
-            link: "/25.Moni介绍/10.应用场景",
+            link: "/25.Moni/10.应用场景",
             activeMatch: "/25.Moni/10.应用场景/",
           },
         ],
