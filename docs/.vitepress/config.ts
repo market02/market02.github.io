@@ -167,63 +167,62 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       {
-        text: "80fafa指南",
+        text: "80fafa",
         items: [
           {
             text: "简介",
-            link: "/01.80fafa指南/01.简介/01.简介",
+            link: "/01.80fafa/01.简介/01.简介",
             activeMatch: "/01.80fafa指南/01.简介/01.简介",
           },
           {
             text: "分享者操作",
-            link: "/01.80fafa指南/10.分享者操作/10.发布商品",
-            activeMatch: "/01.80fafa指南/10.分享者操作/10.发布商品",
+            link: "/01.80fafa/10.分享者操作/10.发布商品",
+            activeMatch: "/01.80fafa/10.分享者操作/10.发布商品",
           },
           {
             text: "终端用户操作",
-            link: "/01.80fafa指南/20.终端用户操作/02.扫码取码",
-            activeMatch: "/01.80fafa指南/20.终端用户操作/02.扫码取码",
+            link: "/01.80faf/20.终端用户操作/02.扫码取码",
+            activeMatch: "/01.80fafa/20.终端用户操作/02.扫码取码",
           },
         ],
       },
       {
-        text: "80fafa API",
+        text: "API",
         items: [
           {
             text: "API介绍",
-            link: "/15.80fafa API/01.API介绍/01.80fafa登录API介绍",
-            activeMatch: "/15.80fafa API/01.API介绍/01.80fafa登录API介绍",
+            link: "/15.API/01.API介绍/01.80fafa登录API介绍",
+            activeMatch: "/15.API/01.API介绍/01.80fafa登录API介绍",
           },
           {
             text: "API使用方法",
-            link: "/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法",
-            activeMatch:
-              "/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法",
+            link: "/15.API/10.API使用方法/01.80fafa登录API调用方法",
+            activeMatch: "/15.API/10.API使用方法/01.80fafa登录API调用方法",
           },
         ],
       },
       {
-        text: "Moni介绍",
+        text: "Moni",
         items: [
           {
             text: "快速了解",
-            link: "/25.Moni介绍/01.快速了解",
-            activeMatch: "/25.Moni介绍/01.快速了解/",
+            link: "/25.Moni/01.快速了解",
+            activeMatch: "/25.Moni/01.快速了解/",
           },
           {
             text: "使用方法",
-            link: "/25.Moni介绍/05.使用方法",
-            activeMatch: "/25.Moni介绍/05.使用方法/",
+            link: "/25.Moni/05.使用方法",
+            activeMatch: "/25.Moni/05.使用方法/",
           },
           {
             text: "应用场景",
             link: "/25.Moni介绍/10.应用场景",
-            activeMatch: "/25.Moni介绍/10.应用场景/",
+            activeMatch: "/25.Moni/10.应用场景/",
           },
         ],
       },
       {
-        text: "StopNet介绍",
+        text: "StopNet",
         items: [
           {
             text: "快速了解",
@@ -233,7 +232,7 @@ export default defineConfig({
           {
             text: "使用方法",
             link: "/30.StopNet/05.使用方法",
-            activeMatch: "/30.StopNet介绍/05.使用方法/",
+            activeMatch: "/30.StopNet/05.使用方法/",
           },
           {
             text: "应用场景",
