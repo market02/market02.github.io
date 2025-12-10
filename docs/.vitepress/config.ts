@@ -199,13 +199,13 @@ export default defineConfig({
         items: [
           {
             text: "API介绍",
-            link: "/15.80fafa API/01.API介绍/01.登录API介绍",
-            activeMatch: "/15.80fafa API/01.API介绍/01.登录API介绍",
+            link: "/15.80fafa API/01.API介绍/01.80fafa登录API介绍",
+            activeMatch: "/15.80fafa API/01.API介绍/01.80fafa登录API介绍",
           },
           {
             text: "API使用方法",
-            link: "/15.80fafa API/10.API使用方法/01.API使用方法1",
-            activeMatch: "/15.80fafa API/10.API使用方法/01.API使用方法1",
+            link: "/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法",
+            activeMatch: "/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法",
           },
         ],
       },
@@ -230,22 +230,22 @@ export default defineConfig({
         ],
       },
       {
-        text: "Stopnet介绍",
+        text: "StopNet介绍",
         items: [
           {
             text: "快速了解",
-            link: "/30.Stopnet介绍/01.快速了解",
-            activeMatch: "/30.Stopnet介绍/01.快速了解/",
+            link: "/30.StopNet介绍/01.快速了解",
+            activeMatch: "/30.StopNet介绍/01.快速了解/",
           },
           {
             text: "使用方法",
-            link: "/30.Stopnet介绍/05.使用方法",
-            activeMatch: "/30.Stopnet介绍/05.使用方法/",
+            link: "/30.StopNet介绍/05.使用方法",
+            activeMatch: "/30.StopNet介绍/05.使用方法/",
           },
           {
             text: "应用场景",
-            link: "/30.Stopnet介绍/10.应用场景",
-            activeMatch: "/30.Stopnet介绍/10.应用场景/",
+            link: "/30.StopNet介绍/10.应用场景",
+            activeMatch: "/30.StopNet介绍/10.应用场景/",
           },
         ],
       },
