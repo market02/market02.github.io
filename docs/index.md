@@ -35,7 +35,7 @@ features:
   - icon: 📝
     title: Stopnet介绍
     details: 控制上网，自律生活。
-    link: /30.Stopnet介绍/01.快速了解
+    link: /30.StopNet/01.快速了解
 ---
 
 ## 业务范围
