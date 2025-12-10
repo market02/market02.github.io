@@ -74,7 +74,6 @@ export default defineConfig({
   lastUpdated: true,
   lang: "zh-CN",
   // 添加 srcExclude 配置
-  
 
   head: [
     [
@@ -167,13 +166,6 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
-      // {
-      //   text: "80fafa指南",
-      //   link: "/guide/intro",
-      //   activeMatch: "/01.指南/",
-      // },
-      // { text: "80fafa API", link: "/15.API/10.主题配置", activeMatch: "/15.API/" },
-      // { text: "Moni", link: "/25.Moni/01.使用方法", activeMatch: "/25.Moni/" },
       {
         text: "80fafa指南",
         items: [
@@ -205,7 +197,8 @@ export default defineConfig({
           {
             text: "API使用方法",
             link: "/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法",
-            activeMatch: "/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法",
+            activeMatch:
+              "/15.80fafa API/10.API使用方法/01.80fafa登录API调用方法",
           },
         ],
       },
@@ -291,7 +284,7 @@ export default defineConfig({
     editLink: {
       text: "在 GitHub 上编辑此页",
       pattern: "https://market02.github.io/edit/master/docs/:path",
-    }, 
+    },
   },
   vite: {
     plugins: [llmstxt() as any],
