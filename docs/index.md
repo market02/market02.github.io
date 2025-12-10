@@ -50,7 +50,7 @@ features:
 
 请加入或者加入我们的交流群（添加我的微信并备注 <mark>进群</mark>）：
 
-![](assert/weixinma%202.jpg)
+![](/weixinma2.jpg)
 
 如果图片链接失效，可以在微信右上角 -> 添加朋友，然后搜索 `80fafa` 来添加我的微信。
 
