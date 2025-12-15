@@ -181,7 +181,7 @@ export default defineConfig({
           },
           {
             text: "终端用户操作",
-            link: "/01.80faf/20.终端用户操作/02.扫码取码",
+            link: "/01.80fafa/20.终端用户操作/02.扫码取码",
             activeMatch: "/01.80fafa/20.终端用户操作/02.扫码取码",
           },
         ],
