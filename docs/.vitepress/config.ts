@@ -191,7 +191,7 @@ export default defineConfig({
         items: [
           {
             text: "API介绍",
-            link: "/15.API/01.API/01.80fafa登录API介绍",
+            link: "/15.API/01.API介绍/01.80fafa登录API介绍",
             activeMatch: "/15.API/01.API介绍/01.80fafa登录API介绍",
           },
           {
