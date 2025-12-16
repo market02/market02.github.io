@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /01.指南/01.简介/10.快速开始
+      link: /01.80fafa/01.简介/10.快速开始
     - theme: alt
       text: 结算
-      link: /01.指南/10.分享者操作/15.结算操作
+      link: /01.80fafa/10.分享者操作/15.结算操作
   image:
     src: /teek-logo-large.png
     alt: Teek
@@ -23,15 +23,15 @@ features:
   - icon: 📖
     title: 80fafa指南
     details: 简单、灵活、快速变现、自由、多渠道分享、专注发码。
-    link: /01.80fafa指南/01.简介/01.简介
+    link: /01.80fafa/01.简介/01.简介
   - icon: 🎉
     title: 80fafa API
     details: 开放共享。
-    link: /15.80fafa API/01.API介绍/01.80fafa登录API介绍
+    link: /15.API/01.API介绍/01.80fafa登录API介绍
   - icon: 🎇
     title: Moni介绍
     details: 强大的ocr识图、监控工具。
-    link: /25.Moni介绍/01.快速了解
+    link: /25.Moni/01.快速了解
   - icon: 📝
     title: Stopnet介绍
     details: 控制上网，自律生活。
