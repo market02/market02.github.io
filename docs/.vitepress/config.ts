@@ -25,7 +25,7 @@ const teekConfig = defineTeekConfig({
   },
   footerInfo: {
     theme: {
-      name: `Theme By Teek@${version}`,
+      name: `苏州滔为智能科技有限公司`,
     },
     copyright: {
       createYear: 2025,
