@@ -31,6 +31,14 @@ const teekConfig = defineTeekConfig({
       createYear: 2025,
       suffix: "80fafa",
     },
+    icpRecord: {
+      name: "苏ICP备2022031216号-3",
+      link: "http://beian.miit.gov.cn/",
+    },
+    securityRecord: {
+      name: "苏公网安备32059002006397号",
+      link: "http://beian.mps.gov.cn/#/query/webSearch?code-32059002006397",
+    },
   },
   codeBlock: {
     copiedDone: (TkMessage) => TkMessage.success("复制成功！"),
