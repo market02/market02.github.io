@@ -32,7 +32,7 @@ const teekConfig = defineTeekConfig({
       suffix: "80fafa",
     },
     icpRecord: {
-      name: "苏ICP备2022031216号-3",
+      name: "苏ICP备2022031216号",
       link: "http://beian.miit.gov.cn/",
     },
     securityRecord: {
